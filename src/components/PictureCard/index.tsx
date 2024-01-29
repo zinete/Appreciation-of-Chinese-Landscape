@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2024-01-25 20:34:03
  * @ Modified by: ZhengHui
- * @ Modified time: 2024-01-28 15:39:34
+ * @ Modified time: 2024-01-29 22:27:19
  * @ Description:
  */
 
@@ -32,13 +32,13 @@ const PictureCard = ({ data = [], onPress }: IPictureCardProps) => {
               }}
             >
               <LazyLoadImage
-                // placeholderSrc="./placeholder.svg"
+                placeholderSrc="./placeholder.png"
                 effect="blur"
                 title={item?.description}
-                src={item?.imageUrl}
+                src={item?.imageUrl ?? "./placeholder.png"}
                 alt={item.name}
                 width={"100%"}
-                className="h-[320px] md:h-[346px] w-full object-cover bg-[#EDEFF2] border-none"
+                className="h-[320px] md:h-[346px] w-full object-cover object-top bg-[#EDEFF2] border-none"
               />
               <div className="p-[20px] md:px-[12px] md:py-[10px]">
                 <span className="text-[#000000] font-medium text-[30px] md:font-normal md:text-[18px] md:mb-[10px] md:group-hover:text-[#fff]">

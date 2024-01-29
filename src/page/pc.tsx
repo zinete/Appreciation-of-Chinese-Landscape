@@ -2,12 +2,9 @@
  * @ Author: ZhengHui
  * @ Create Time: 2024-01-25 22:58:34
  * @ Modified by: ZhengHui
- * @ Modified time: 2024-01-28 12:48:04
+ * @ Modified time: 2024-01-29 21:39:47
  * @ Description:
  */
-
-import "swiper/css";
-import "swiper/css/effect-fade";
 
 import WapperCard from "../components/WapperCard";
 import PictureCard from "../components/PictureCard";
@@ -126,8 +123,11 @@ export default function CreatePcPage() {
                   <img src="./title2.svg" alt="" className="md:w-[148px]" />
                 }
               >
-                <span className="md:text-[14px] md:indent-[28px] inline-block font-normal md:leading-[24px] text-[#4F4F4F]">
-                  今年是中法建交60周年，也是中法文化旅游年，因此上海市文化和旅游局指导中华艺术宫（上海美术馆）联手清华大学艺术博物馆、中国上海画院、上海市美术家协会，策划了林风眠、吴冠中艺术大展，以“中国式风景”为主题，遴选了两位艺术家大约200幅佳作，涵盖他们在不同时期创作的中国画、油画、水彩、素描各门类艺术精品，展现他们师生二人融通中西古今的开放视野，传统精髓与时代经验兼备的中国气派。我们真诚欢迎更多市民游客走进上海美术馆，沉浸式体验“中国式风景”，从中华文化和中华美学中得到心灵的滋养、汲取奋进的力量。
+                <span className="md:text-[14px] md:text-justify md:indent-[28px] inline-block font-normal md:leading-[24px] text-[#4F4F4F]">
+                  由上海市文化和旅游局指导，中华艺术宫（上海美术馆）联手清华大学艺术博物馆、上海中国画院、上海市美术家协会共同主办的“中国式风景——林风眠吴冠中艺术大展”在中华艺术宫（上海美术馆）正式拉开帷幕，汇聚两位中国艺术大师200件（组）代表性作品，以全新的策展和恢弘的气魄，为观众奉献一场两大画坛巨匠的史诗级艺术对话。
+                </span>
+                <span className="md:text-[14px] md:text-justify md:indent-[28px] inline-block font-normal md:leading-[24px] text-[#4F4F4F]">
+                  作为首次全面回顾两位艺术大师艺术成就的大型展览，“中国式风景——林风眠吴冠中艺术大展”以沪上国有美术机构馆藏精品为核心，集聚京、沪、粤、浙各大艺术机构林风眠、吴冠中珍贵藏品，以全新学术脉络深度梳理两位艺术大师的探索、成就与影响，呈现林风眠、吴冠中对时代之问的“回答”——融通中西古今的创新精神，用艺术探索开创的“中国式风景”。
                 </span>
               </WapperCard>
             </section>
