@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2024-01-27 14:30:51
  * @ Modified by: ZhengHui
- * @ Modified time: 2024-01-27 23:53:11
+ * @ Modified time: 2024-01-28 15:41:07
  * @ Description:
  */
 
@@ -66,7 +66,7 @@ const Modal = ({
         childRef.current.removeEventListener("scroll", handleChildScroll);
       }
     };
-  }, []);
+  }, [openModal]);
 
   return (
     <>
@@ -101,7 +101,7 @@ const Modal = ({
                     <li>来源：{source}</li>
                   </ul>
                 </div>
-                <p className="text-justify md:leading-[26px] md:mt-[0px] mt-[30px] md:text-[14px] text-[30px] font-normal text-[#4F4F4F]">
+                <p className="text-justify inline-block md:leading-[26px] md:mt-[0px] mt-[30px] md:text-[14px] text-[30px] indent-[2rem] md:indent-[28px]  font-normal text-[#4F4F4F]">
                   {description}
                 </p>
               </div>

@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2024-01-25 22:58:34
  * @ Modified by: ZhengHui
- * @ Modified time: 2024-01-28 11:01:06
+ * @ Modified time: 2024-01-28 12:48:04
  * @ Description:
  */
 
@@ -126,7 +126,7 @@ export default function CreatePcPage() {
                   <img src="./title2.svg" alt="" className="md:w-[148px]" />
                 }
               >
-                <span className="md:text-[14px] font-normal md:text-right md:leading-[24px] text-[#4F4F4F]">
+                <span className="md:text-[14px] md:indent-[28px] inline-block font-normal md:leading-[24px] text-[#4F4F4F]">
                   今年是中法建交60周年，也是中法文化旅游年，因此上海市文化和旅游局指导中华艺术宫（上海美术馆）联手清华大学艺术博物馆、中国上海画院、上海市美术家协会，策划了林风眠、吴冠中艺术大展，以“中国式风景”为主题，遴选了两位艺术家大约200幅佳作，涵盖他们在不同时期创作的中国画、油画、水彩、素描各门类艺术精品，展现他们师生二人融通中西古今的开放视野，传统精髓与时代经验兼备的中国气派。我们真诚欢迎更多市民游客走进上海美术馆，沉浸式体验“中国式风景”，从中华文化和中华美学中得到心灵的滋养、汲取奋进的力量。
                 </span>
               </WapperCard>
