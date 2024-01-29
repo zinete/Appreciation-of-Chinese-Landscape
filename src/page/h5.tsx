@@ -80,11 +80,11 @@ export default function CreateH5Page() {
                         alt=""
                         className="w-[28px] h-[28px] mr-[8px]"
                       />
-                      <div className="text-[24px] w-[120px] mr-[6px] text-[#000] font-medium">
+                      <div className="text-[24px] w-[126px] text-[#000] font-medium">
                         {i.title}
                       </div>
                     </div>
-                    <div className="text-[24px] flex-1">
+                    <div className="text-[24px] flex-1 ml-[6px]">
                       <span className="text-[#4F4F4F] font-normal text-justify">
                         {i.info}
                       </span>
