@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2024-01-27 14:30:51
  * @ Modified by: ZhengHui
- * @ Modified time: 2024-01-28 15:41:07
+ * @ Modified time: 2024-02-01 22:50:56
  * @ Description:
  */
 
@@ -79,13 +79,22 @@ const Modal = ({
           <div className="w-full h-full overflow-scroll" ref={childRef}>
             <div className="px-[65px] md:px-[32.5px] pt-[40px] md:pt-[33.5px] pb-[300px] md:pb-[20px] md:bg-white md:mx-[40%] md:my-[82px]">
               <PhotoProvider maskClosable>
-                <PhotoView src={imageUrl}>
-                  <img
-                    src={imageUrl}
-                    alt=""
-                    className="px-[40px] md:px-[24px] mb-[40px] md:mb-[20px]"
-                  />
-                </PhotoView>
+                <div className="relative">
+                  <PhotoView src={imageUrl}>
+                    <img
+                      src={imageUrl}
+                      alt=""
+                      className="px-[40px] md:px-[24px] mb-[40px] md:mb-[20px] "
+                    />
+                  </PhotoView>
+                  <div className="absolute pointer-events-none  bottom-[20px] cursor-pointer right-[60px] md:right-[36px] md:bottom-[10px] rounded-full bg-black opacity-50 flex justify-center items-center p-[10px] md:p-[4px]">
+                    <img
+                      src={"./view.svg"}
+                      alt=""
+                      className="w-[36px] h-[36px] md:w-[24px] md:h-[24px] ml-[2px] mt-[2px] md:ml-[2px] md:mt-[2px]"
+                    />
+                  </div>
+                </div>
               </PhotoProvider>
               <div className="text-center">
                 <h2 className="text-[#000] text-[36px] font-medium md:text-[18px] md:mb-[15px] mb-[30px]">
